@@ -1,0 +1,34 @@
+{
+  "nodes": 1168,
+  "edges": 1243,
+  "threshold_final_infected": {
+    "random": 36,
+    "degree": 298,
+    "closeness": 135,
+    "betweenness": 170,
+    "pagerank": 298
+  },
+  "threshold_least_method": "random",
+  "threshold_vs_ic": {
+    "threshold": 1038,
+    "independent_cascade": 97,
+    "difference": 941
+  },
+  "sir_total_max": {
+    "random": 315,
+    "degree": 412,
+    "closeness": 226,
+    "betweenness": 329,
+    "pagerank": 373
+  },
+  "sir_atpoint_max": {
+    "random": 89,
+    "degree": 134,
+    "closeness": 65,
+    "betweenness": 113,
+    "pagerank": 149
+  },
+  "sir_most_total": "degree",
+  "sir_most_atpoint": "pagerank",
+  "sis_node0_infection_iterations": 8
+}
